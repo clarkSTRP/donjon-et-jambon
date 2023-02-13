@@ -1,0 +1,16 @@
+{
+    "name": "yoni/donjon-et-jambon",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Yoni\\DonjonEtJambon\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yoni sustek",
+            "email": "yoni.sustek@gmail.com"
+        }
+    ],
+    "require": {}
+}
