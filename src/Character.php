@@ -22,14 +22,13 @@ class Character {
     {
         $this->health = $this->health + 50;
     }
+    public function Death(){
+        return $this->health <= 0;
+    }
     //attack perso vs perso 
     public function DoDamage($target){
        $damageMitigation = ($this->attack -= $target->armor);
         $target->health -= $damageMitigation;
         dump($target);
     }
-    public function Death(){
-
-    }
-    
 }
