@@ -12,4 +12,6 @@ use Yoni\DonjonEtJambon\Character;
  dump($MediumMinion);
  $BigMinion = new Character("Big-Minion",100,100);
  dump($BigMinion);
+
+ $Hero->DoDamage($SmallMinion);
  

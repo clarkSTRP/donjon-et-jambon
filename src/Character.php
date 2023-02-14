@@ -13,8 +13,8 @@ class Character {
         $this->health = $health;
         $this->attack = $attack;
     }
-    public function Dodamage($target){
-        this->$target($health) =  
-        
+    public function DoDamage($target){
+        $target->health -= $this->attack;
+        dump($target);  
     }
 }
