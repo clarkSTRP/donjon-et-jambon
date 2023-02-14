@@ -8,34 +8,36 @@
    <title>Document</title>
 </head>
 <body>
-<pre>
-____ 
-                  .'* *.'
-               __/_*_*(_
-              / _______ \
-             _\_)/___\(_/_ 
-            / _((\- -/))_ \
-            \ \())(-)(()/ /
-             ' \(((()))/ '
-            / ' \)).))/ ' \
-           / _ \ - | - /_  \
-          (   ( .;''';. .'  )
-          _\"__ /    )\ __"/_
-            \/  \   ' /  \/
-             .'  '...' ' )
-              / /  |  \ \
-             / .   .   . \
-            /   .     .   \
-           /   /   |   \   \
-         .'   /    b    '.  '.
-     _.-'    /     Bb     '-. '-._ 
- _.-'       |      BBb       '-.  '-. 
-(________mrf\____.dBBBb.________)____)
-</pre>
-<p>hello traveler my name is nedhianus what's your ?</p>
-<form action="intro.php">
-<input name="playerName" type="text" placeholder="enter your name">
-<button type="submit">start</button>
-</form>
+<main class="indexMain">
+    <pre>
+ 
+                      .'* *.'
+                  __ /_*_*(_
+                  / _______ \
+                 _\_)/___\(_/_ 
+                / _((\- -/))_ \
+                \ \())(-)(()/ /
+                ' \(((()))/ '
+                / ' \)).))/ ' \
+            / _ \ - | - /_  \
+            (   ( .;''';. .'  )
+            _\"__ /    )\ __"/_
+                \/  \   ' /  \/
+                .'  '...' ' )
+                / /  |  \ \
+                / .   .   . \
+                /   .     .   \
+            /   /   |   \   \
+            .'   /    b    '.  '.
+        _.-'    /     Bb     '-. '-._ 
+    _.-'       |      BBb       '-.  '-. 
+    (________mrf\____.dBBBb.________)____)
+    </pre>
+    <p>hello traveler my name is nedhianus what's your ?</p>
+    <form action="intro.php">
+        <input name="playerName" type="text" placeholder="enter your name">
+        <button type="submit">start</button>
+    </form>
+</main>
 </body>
 </html>

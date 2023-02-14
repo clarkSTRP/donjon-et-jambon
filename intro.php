@@ -58,9 +58,9 @@ $name = $_GET["playerName"];
     <p>here is your Sword <span class="namePlayer"><?=$name?></span> good luck...</p>
 
 
-    <form action="">
+    <form action="choosepath.php">
         <input name="playerName" type="hidden" value="<?=$name?>">
-        <a><button>Next</button></a>
+        <button class="btnIntro">Next</button>
     </form>
 </main>
 

@@ -39,6 +39,12 @@
   font-size: larger;
 }
 
+.indexMain {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
 .introMain {
   display: flex;
   flex-flow: column;
@@ -48,4 +54,10 @@
 .introMain .introText {
   border: 2px #00ff00 solid;
   padding: 2%;
+}
+
+.btnIntro {
+  width: 300px;
+  height: 50px;
+  font-size: 1.5em;
 }/*# sourceMappingURL=style.css.map */
