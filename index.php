@@ -1,19 +1,41 @@
-<?php
-require 'vendor/autoload.php';
-
-use Yoni\DonjonEtJambon\Character;
- $Hero = new Character("hero",200,15,0);
- $Hero->addSoin();
- dump($Hero);
-
- $SmallMinion = new Character("Small-Minion",10,rand(0,10),20);
- dump($SmallMinion);
- $MediumMinion = new Character("Medium-Minion",30,rand(5,30),0);
- dump($MediumMinion);
- $BigMinion = new Character("Big-Minion",100,rand(30,100),0);
- dump($BigMinion);
-
- $SmallMinion->DoDamage($Hero);
-
-?>
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="style.css">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+<pre>
+____ 
+                  .'* *.'
+               __/_*_*(_
+              / _______ \
+             _\_)/___\(_/_ 
+            / _((\- -/))_ \
+            \ \())(-)(()/ /
+             ' \(((()))/ '
+            / ' \)).))/ ' \
+           / _ \ - | - /_  \
+          (   ( .;''';. .'  )
+          _\"__ /    )\ __"/_
+            \/  \   ' /  \/
+             .'  '...' ' )
+              / /  |  \ \
+             / .   .   . \
+            /   .     .   \
+           /   /   |   \   \
+         .'   /    b    '.  '.
+     _.-'    /     Bb     '-. '-._ 
+ _.-'       |      BBb       '-.  '-. 
+(________mrf\____.dBBBb.________)____)
+</pre>
+<p>hello traveler my name is nedhianus what's your ?</p>
+<form action="intro.php">
+<input name="playerName" type="text" placeholder="enter your name">
+<button type="submit">start</button>
+</form>
+</body>
+</html>
