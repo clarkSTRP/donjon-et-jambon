@@ -7,6 +7,7 @@ class Character {
     public $attack;
     public $name;
     public $armor;
+    public $damageMitigation;
 
    public function __construct($name,$health,$attack,$armor)
     {
@@ -21,15 +22,14 @@ class Character {
     {
         $this->health = $this->health + 50;
     }
-    public function Dodamage($target){
-        this->$target($health) =  
-        
-    }
-
     //attack perso vs perso 
     public function DoDamage($target){
-        $target->health -= $this->attack;
+       $damageMitigation = ($this->attack -= $target->armor);
+        $target->health -= $damageMitigation;
         dump($target);
+    }
+    public function Death(){
+
     }
     
 }
