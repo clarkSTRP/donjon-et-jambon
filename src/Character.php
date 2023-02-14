@@ -22,6 +22,14 @@ class Character {
     {
         $this->health = $this->health + 50;
     }
+
+    // armure +20
+    public function addArmor()
+    {
+        $this->armor = $this->armor + 50;
+    } 
+    
+    
     //attack perso vs perso 
     public function DoDamage($target){
        $damageMitigation = ($this->attack -= $target->armor);
@@ -29,6 +37,7 @@ class Character {
         dump($target);
     }
     public function Death(){
+
 
     }
     
