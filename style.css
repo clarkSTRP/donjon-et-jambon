@@ -7,6 +7,38 @@
   font-weight: bold;
 }
 
+.doorContainer {
+  display: flex;
+  justify-content: center;
+}
+.doorContainer__one {
+  display: flex;
+  flex-direction: column;
+}
+.doorContainer__one > pre {
+  font-size: 8px;
+}
+.doorContainer__two {
+  display: flex;
+  flex-direction: column;
+}
+.doorContainer__two > pre {
+  font-size: 8px;
+}
+
+.doorText {
+  text-align: center;
+}
+
+.merchantContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.merchantContainer > * {
+  font-size: larger;
+}
+
 .introMain {
   display: flex;
   flex-flow: column;
