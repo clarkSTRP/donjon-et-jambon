@@ -1,7 +1,6 @@
 <?php
 namespace Yoni\DonjonEtJambon;
 
-
 class Character {
     public $health;
     public $attack;

@@ -3,6 +3,10 @@
   background-color: black;
 }
 
+.namePlayer {
+  font-weight: bold;
+}
+
 .doorContainer {
   display: flex;
   justify-content: center;
