@@ -36,4 +36,7 @@ class Character {
         $target->health -= $damageMitigation;
         dump($target);
     }
+    public function Death(){
+        return $this->health <= 0;
+    }
 }
