@@ -6,3 +6,17 @@
 {
     font-weight: bold;
 }
+//page intro
+.introMain
+{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 2% ;
+    .introText
+     {
+        border: 2px #00ff00 solid;
+        padding: 2%;
+     }
+
+}

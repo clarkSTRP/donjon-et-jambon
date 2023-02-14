@@ -5,4 +5,15 @@
 
 .namePlayer {
   font-weight: bold;
+}
+
+.introMain {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 2%;
+}
+.introMain .introText {
+  border: 2px #00ff00 solid;
+  padding: 2%;
 }/*# sourceMappingURL=style.css.map */
